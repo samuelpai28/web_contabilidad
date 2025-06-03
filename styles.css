@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+}
+
+
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 2em 1em;
+  max-width: 900px;
+  margin: auto;
+}
+
+#servicios .servicio, #equipo .persona {
+  background: white;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.icono {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0.5em;
+}
+
+.persona {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.persona img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+
+.servicio ul {
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+.servicio li {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+}
+
+
+.marketing ul {
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+.marketing li {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+}
